@@ -13,6 +13,3 @@ $task="insert into form(name,address,id,mob)VALUES('$a','$b','$c',$d)";
 $result=mysqli_query($conn,$task);
         mysqli_close($conn);
 ?>
-<?php
-    header("location:login.html");
-?>
